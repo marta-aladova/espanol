@@ -1,0 +1,28 @@
+.vocabulary{
+  width: 100%;
+  .vocabulary-heading, .vocabulary-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items:center;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 20px;
+  }
+
+  .vocabulary-row{
+    padding-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .vocabulary-column{
+    width: 25%
+  }
+  .vocabulary-column-actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
